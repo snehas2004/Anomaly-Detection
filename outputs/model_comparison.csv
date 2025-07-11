@@ -1,0 +1,6 @@
+,accuracy,precision,recall,f1_score
+IsolationForest,0.7214285714285714,0.5714285714285714,0.1,0.1702127659574468
+RandomForest,1.0,1.0,1.0,1.0
+NaiveBayes,1.0,1.0,1.0,1.0
+LogisticRegression,1.0,1.0,1.0,1.0
+SVM,1.0,1.0,1.0,1.0

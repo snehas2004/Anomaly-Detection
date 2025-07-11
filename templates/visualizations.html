@@ -1,0 +1,12 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>📈 Visualizations</h2>
+<p>These charts help visualize model accuracy, traffic distribution (normal vs DDoS), and how traffic behavior changes over time.</p>
+<img src="{{ url_for('static', filename='images/bar_chart.png') }}" alt="Accuracy Chart" width="500">
+<img src="{{ url_for('static', filename='images/pie_chart.png') }}" alt="Traffic Pie Chart" width="400">
+<img src="{{ url_for('static', filename='images/timeseries_plot.png') }}" alt="Time Series" width="600">
+<br><br>
+<a href="/results"><button>← Back</button></a>
+<a href="/features"><button>Next →</button></a>
+{% endblock %}

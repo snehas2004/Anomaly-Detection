@@ -1,0 +1,10 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>🔍 Feature Importance</h2>
+<p>This chart shows which features (like duration, bytes, counts) the Random Forest model considered most influential in distinguishing DDoS traffic.</p>
+<img src="{{ url_for('static', filename='images/feature_importance.png') }}" alt="Feature Importance">
+<br><br>
+<a href="/visualizations"><button>← Back</button></a>
+<a href="/"><button>Go to Home</button></a>
+{% endblock %}
