@@ -1,5 +1,5 @@
 
-<h1 align="center">🚨 NetGuardAI</h1>
+<h1 align="center"> NetGuardAI</h1>
 <h3 align="center">Anomaly Detection in Network Traffic using Machine Learning</h3>
 
 <p align="center">
@@ -10,33 +10,33 @@
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 NetGuardAI is a smart, web-based system for detecting network anomalies—especially Distributed Denial of Service (DDoS) attacks—using multiple machine learning models. It enables dataset upload, synthetic traffic generation, model evaluation, and export of results with rich visualizations.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📥 Upload or generate synthetic `.csv` datasets
-- 🧠 Train & compare 6 ML models:
+-  Upload or generate synthetic `.csv` datasets
+-  Train & compare 6 ML models:
   - Isolation Forest (Unsupervised)
   - Random Forest
   - Naive Bayes
   - Logistic Regression
   - SVM
   - Passive-Aggressive Classifier
-- 📊 Visual dashboards with:
+-  Visual dashboards with:
   - Accuracy comparison bar chart
   - Normal vs DDoS traffic pie chart
   - Time-series plot of traffic behavior
   - Feature importance chart
-- 📤 Export results to CSV
-- 🌐 Flask-based responsive web interface
+-  Export results to CSV
+-  Flask-based responsive web interface
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Tech              | Description                     |
 |------------------|---------------------------------|
@@ -49,7 +49,7 @@ NetGuardAI is a smart, web-based system for detecting network anomalies—especi
 
 ---
 
-## 🧪 Model Evaluation
+##  Model Evaluation
 
 | Model                | Accuracy | Precision | Recall | F1 Score |
 |---------------------|----------|-----------|--------|----------|
@@ -59,21 +59,21 @@ NetGuardAI is a smart, web-based system for detecting network anomalies—especi
 | Logistic Regression  | 0.69     | 0.00      | 0.00   | 0.00     |
 | SVM                  | 0.69     | 0.00      | 0.00   | 0.00     |
 
-> ✅ **Best Model:** Naive Bayes (high recall & F1)  
-> 🌟 **Balanced Model:** Random Forest (good accuracy + interpretability)
+>  **Best Model:** Naive Bayes (high recall & F1)  
+>  **Balanced Model:** Random Forest (good accuracy + interpretability)
 
 ---
 
-## 📸 Visualizations
+##  Visualizations
 
-- 📊 **Model Accuracy Bar Chart**
-- 🥧 **Normal vs DDoS Pie Chart**
-- 📈 **Time-Series Anomaly Pattern**
-- 🔍 **Feature Importance Ranking**
+-  **Model Accuracy Bar Chart**
+-  **Normal vs DDoS Pie Chart**
+-  **Time-Series Anomaly Pattern**
+-  **Feature Importance Ranking**
 
 ---
 
-## 📦 How to Run
+##  How to Run
 
 ```bash
 # Clone the repo
@@ -91,7 +91,7 @@ Then open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 NetGuardAI/
@@ -107,19 +107,19 @@ NetGuardAI/
 
 ---
 
-## 👩‍💻 Contributors
+##  Contributors
 
 - **Sneha Santhosh**
 - **Deepasree Pradeep**
 - **Devika S**
 
-🎓 Saintgits College of Engineering, Kerala  
-🧠 Intel® Unnati AI & ML Program  
-🎓 Mentor: Ms. Akshara Sasidharan
+ Saintgits College of Engineering, Kerala  
+ Intel® Unnati AI & ML Program  
+ Mentor: Ms. Akshara Sasidharan
 
 ---
 
-## 📚 References
+##  References
 
 - [CICIDS 2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
 - [Scikit-learn](https://scikit-learn.org/)
@@ -128,29 +128,29 @@ NetGuardAI/
 
 ---
 
-## 📄 License
+##  License
 
 This project is part of the Intel® Unnati Industrial Training Program  
 For educational and academic use only.
 
 ---
 
-## 📝 Project Summary
+##  Project Summary
 
-### ✅ Outcomes
+###  Outcomes
 - NetGuardAI successfully detects DDoS attacks in network traffic using a variety of machine learning algorithms.
 - Naive Bayes achieved the **highest detection performance** with an F1-score of 0.71 and recall of 0.92.
 - Random Forest offered a **balanced accuracy (0.74)** and valuable feature importance insights.
 - Visual tools like bar charts, pie charts, and time-series plots improved the interpretability of results.
 - The application’s **Flask-based interface** enables smooth interaction, dataset upload, and report exports.
 
-### ⚠️ Limitations
+###  Limitations
 - Some models (e.g., SVM, Logistic Regression) failed to detect DDoS traffic effectively in the tested dataset.
 - The system currently operates in a **batch mode**, not real-time.
 - Large `.pkl` files generated during training can exceed GitHub's file size limit.
 - No advanced anomaly handling techniques (e.g., deep learning) are integrated yet.
 
-### 🔭 Future Scope
+###  Future Scope
 - Implement **real-time traffic monitoring** and live anomaly detection pipelines.
 - Expand to **deep learning architectures** like LSTM or Autoencoders for better sequence modeling.
 - Add **user authentication and logging** for secure and auditable use.
