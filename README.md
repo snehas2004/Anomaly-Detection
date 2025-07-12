@@ -112,7 +112,7 @@ NetGuardAI/
 - **Deepasree Pradeep**
 - **Devika S**
 
- Saintgits College of Engineering, Kerala  
+ Saintgits College of Engineering, Kottayam, Kerala  
  Intel® Unnati AI & ML Program  
  Mentor: Ms. Akshara Sasidharan
 
