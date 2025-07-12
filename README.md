@@ -156,4 +156,8 @@ For educational and academic use only.
 - Integrate with **cloud storage or databases** to handle large-scale datasets and persistent results.
 - Include a **self-learning feedback loop** to adapt the model continuously based on user verification.
 
+###  Project Report and Demo Video
+  - Project_Report.pdf
+  - Demo_Video.mp4
+Project Link: https://github.com/snehas2004/Anomaly-Detection/
 ---
