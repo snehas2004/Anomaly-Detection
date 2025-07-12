@@ -157,7 +157,7 @@ For educational and academic use only.
 - Include a **self-learning feedback loop** to adapt the model continuously based on user verification.
 
 ###  Project Report and Demo Video
-  - Project_Report.pdf
+  - [Project_Report.pdf](https://github.com/snehas2004/Anomaly-Detection/blob/main/Project_Report.pdf)
   - Demo_Video.mp4
     
 Project Link: https://github.com/snehas2004/Anomaly-Detection/
