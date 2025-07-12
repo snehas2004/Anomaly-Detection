@@ -159,5 +159,6 @@ For educational and academic use only.
 ###  Project Report and Demo Video
   - Project_Report.pdf
   - Demo_Video.mp4
+    
 Project Link: https://github.com/snehas2004/Anomaly-Detection/
 ---
