@@ -27,10 +27,10 @@ NetGuardAI is a smart, web-based system for detecting network anomalies—especi
   - SVM
   - Passive-Aggressive Classifier
 -  Visual dashboards with:
-  - Accuracy comparison bar chart
-  - Normal vs DDoS traffic pie chart
-  - Time-series plot of traffic behavior
-  - Feature importance chart
+    - Accuracy comparison bar chart
+    - Normal vs DDoS traffic pie chart
+    - Time-series plot of traffic behavior
+    - Feature importance chart
 -  Flask-based responsive web interface
 
 ---
