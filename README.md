@@ -31,7 +31,6 @@ NetGuardAI is a smart, web-based system for detecting network anomalies—especi
   - Normal vs DDoS traffic pie chart
   - Time-series plot of traffic behavior
   - Feature importance chart
--  Export results to CSV
 -  Flask-based responsive web interface
 
 ---
